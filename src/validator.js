@@ -1,3 +1,12 @@
+import {
+  MAX_CARNAME_LENGTH,
+  MIN_NUMBER_OF_CAR,
+  EMPTY,
+  MIN_NUMBER_OF_RACINGCOUNT,
+} from './constants';
+
+MAX_CARNAME_LENGTH;
+
 function validateUserInput1(userInputValue) {
   let isValid = false;
   userInputValue.forEach((name) => {
@@ -33,8 +42,10 @@ export function validatedCarNames(userInputValue) {
   let isValidated = false;
 
   if ((validation1, validation2)) {
+    carNamesDisabled();
     isValidated = true;
   } else {
+    clearCarNamesInput();
     isValidated;
   }
   return isValidated;
@@ -44,7 +55,9 @@ export function validateRacingCount(racingCount) {
   let isValid = false;
   if (racingCount < MIN_NUMBER_OF_RACINGCOUNT) {
     alert('0 이상의 정수를 입력해 주세요.');
+    clearRacingCountInput();
   } else {
+    racingCountDisabled();
     isValid = true;
   }
 
