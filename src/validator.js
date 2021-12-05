@@ -3,7 +3,7 @@ import {
   MIN_NUMBER_OF_CAR,
   EMPTY,
   MIN_NUMBER_OF_RACINGCOUNT,
-} from './constants';
+} from './constants.js';
 
 MAX_CARNAME_LENGTH;
 
