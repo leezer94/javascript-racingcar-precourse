@@ -1,3 +1,4 @@
+import { handleCarNamesSubmitButton } from './handlers.js';
 import {
   hideRacingCountContainer,
   hideResultContainer,
@@ -15,6 +16,7 @@ const init = function () {
   // EventListeners
   carNamesButton.addEventListener('click', (event) => {
     event.preventDefault();
+    handleCarNamesSubmitButton();
   });
 
   racingCountButton.addEventListener('click', (event) => {

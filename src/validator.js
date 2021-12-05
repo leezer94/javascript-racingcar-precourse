@@ -4,8 +4,7 @@ import {
   EMPTY,
   MIN_NUMBER_OF_RACINGCOUNT,
 } from './constants.js';
-
-MAX_CARNAME_LENGTH;
+import { carNamesDisabled, clearCarNamesInput } from './view/get-user-input.js';
 
 function validateUserInput1(userInputValue) {
   let isValid = false;
