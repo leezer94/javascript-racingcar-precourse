@@ -1,3 +1,4 @@
+// Numbers
 export const MAX_NUMBER = 9;
 
 export const MIN_NUMBER = 1;
@@ -13,3 +14,7 @@ export const MIN_NUMBER_OF_CAR = 2;
 export const MIN_NUMBER_OF_RACINGCOUNT = 1;
 
 export const EMPTY = 0;
+
+// Strings
+
+export const LINE_BREAK = '<br />';
