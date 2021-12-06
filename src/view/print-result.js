@@ -1,6 +1,6 @@
-import { state } from '..';
-import { LINE_BREAK, POSITION_CONDITION_NUMBER } from '../constants';
-import { addRandomPosition } from '../game-utils';
+import { state } from '../index.js';
+import { LINE_BREAK, POSITION_CONDITION_NUMBER } from '../constants.js';
+import { addRandomPosition, decideWinner } from '../game-utils.js';
 
 export const printGameResult = function (racingCount) {
   addRandomPosition(racingCount);
@@ -25,4 +25,12 @@ const printPostions = function (car, round) {
       resultSpan.innerHTML += '';
     }
   }
+};
+
+export const printFinalWinner = function () {
+  const finalWinner = decideWinner().join(', ');
+  const resultSpan = document.querySelector('#result-span');
+  const racingWinners = document.querySelector('#racing-winners');
+  resultSpan.innerHTML += `${LINE_BREAK}최종우승자: `;
+  racingWinners.innerHTML += `${finalWinner}`;
 };

@@ -44,7 +44,7 @@ const getWinnerPosition = function () {
   return Math.max(...winnerPosition);
 };
 
-const decideWinner = function () {
+export const decideWinner = function () {
   filterPosition();
   let winners = [];
   for (const car of state.carArray) {
