@@ -4,10 +4,10 @@ import {
   hideResultContainer,
 } from './view/display.js';
 
+export const state = {
+  carArray: [],
+};
 const init = function () {
-  export const state = {
-    carArray: [],
-  };
   // Selectors
   const carNamesButton = document.querySelector('#car-names-submit');
   const racingCountButton = document.querySelector('#racing-count-submit');
