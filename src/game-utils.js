@@ -33,3 +33,13 @@ const filterPosition = function () {
     );
   }
 };
+
+const getWinnerPosition = function () {
+  filterPosition();
+  let winnerPosition = [];
+  for (const car of state.carArray) {
+    winnerPosition.push(car.position.length);
+  }
+
+  return Math.max(...winnerPosition);
+};
