@@ -77,7 +77,7 @@
 
 ### 💻 실행 결과
 
-![실행이미지](images/keonheelee-test-result.png)
+![테스트결과](./images/keonheelee-test-result.png)
 
 <br>
 
