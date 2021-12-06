@@ -51,7 +51,7 @@
 
 ## Test Result
 
-![실행이미지](images/.jpg)
+![실행이미지](images/keonheelee-test-result.png)
 
 ## 🔍 진행방식
 
@@ -77,7 +77,7 @@
 
 ### 💻 실행 결과
 
-![테스트결과](./images/keonheelee-test-result.png)
+![실행이미지](./images/result.jpg)
 
 <br>
 
