@@ -9,6 +9,7 @@ import {
   getCarNamesInput,
   getRacingCountInput,
 } from './view/get-user-input.js';
+import { printGameResult } from './view/print-result.js';
 
 export const handleCarNamesSubmitButton = function () {
   const carNamesInputValue = getCarNamesInput();
@@ -28,5 +29,6 @@ export const handleRacingCountSubmitButton = function () {
   if (validateRacingCount(racingCount)) {
     showResultDiv();
     appendResultSpanElement();
+    printGameResult(racingCount);
   }
 };
