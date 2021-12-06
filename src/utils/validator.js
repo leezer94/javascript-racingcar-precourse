@@ -3,12 +3,12 @@ import {
   MIN_NUMBER_OF_CAR,
   EMPTY,
   MIN_NUMBER_OF_RACINGCOUNT,
-} from './constants.js';
+} from '../constants/constants.js';
 import {
   carNamesDisabled,
   clearCarNamesInput,
   racingCountDisabled,
-} from './view/get-user-input.js';
+} from './get-user-input.js';
 
 function validateUserInput1(userInputValue) {
   let isValid = false;

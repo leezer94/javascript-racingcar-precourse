@@ -2,9 +2,9 @@ import {
   MAX_NUMBER,
   MIN_NUMBER,
   POSITION_CONDITION_NUMBER,
-} from './constants.js';
-import { state } from './index.js';
-import { Car } from './car.js';
+} from '../constants/constants.js';
+import { state } from '../index.js';
+import { Car } from '../domain/car.js';
 
 export const makeNewCars = function (carNamesArray) {
   carNamesArray.forEach((name) => state.carArray.push(new Car(name)));

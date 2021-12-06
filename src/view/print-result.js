@@ -1,6 +1,9 @@
 import { state } from '../index.js';
-import { LINE_BREAK, POSITION_CONDITION_NUMBER } from '../constants.js';
-import { addRandomPosition, decideWinner } from '../game-utils.js';
+import {
+  LINE_BREAK,
+  POSITION_CONDITION_NUMBER,
+} from '../constants/constants.js';
+import { addRandomPosition, decideWinner } from '../utils/game-utils.js';
 
 export const printGameResult = function (racingCount) {
   addRandomPosition(racingCount);

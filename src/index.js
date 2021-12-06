@@ -1,7 +1,7 @@
 import {
   handleCarNamesSubmitButton,
   handleRacingCountSubmitButton,
-} from './handlers.js';
+} from './domain/handlers.js';
 import {
   hideRacingCountContainer,
   hideResultContainer,
