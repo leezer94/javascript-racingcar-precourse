@@ -1,4 +1,7 @@
-import { handleCarNamesSubmitButton } from './handlers.js';
+import {
+  handleCarNamesSubmitButton,
+  handleRacingCountSubmitButton,
+} from './handlers.js';
 import {
   hideRacingCountContainer,
   hideResultContainer,
@@ -7,6 +10,7 @@ import {
 export const state = {
   carArray: [],
 };
+
 const init = function () {
   // Selectors
   const carNamesButton = document.querySelector('#car-names-submit');
@@ -24,6 +28,7 @@ const init = function () {
 
   racingCountButton.addEventListener('click', (event) => {
     event.preventDefault();
+    handleRacingCountSubmitButton();
   });
 };
 

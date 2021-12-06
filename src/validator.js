@@ -4,7 +4,11 @@ import {
   EMPTY,
   MIN_NUMBER_OF_RACINGCOUNT,
 } from './constants.js';
-import { carNamesDisabled, clearCarNamesInput } from './view/get-user-input.js';
+import {
+  carNamesDisabled,
+  clearCarNamesInput,
+  racingCountDisabled,
+} from './view/get-user-input.js';
 
 function validateUserInput1(userInputValue) {
   let isValid = false;

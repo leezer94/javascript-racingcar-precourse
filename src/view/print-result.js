@@ -6,7 +6,7 @@ export const printGameResult = function (racingCount) {
   addRandomPosition(racingCount);
   const resultSpan = document.querySelector('#result-span');
 
-  for (let i = 1; i < i <= racingCount; i++) {
+  for (let i = 1; i <= racingCount; i++) {
     for (const car of state.carArray) {
       resultSpan.innerHTML += `${LINE_BREAK} ${car.name}: `;
       printPostions(car, i);
@@ -28,6 +28,7 @@ const printPostions = function (car, round) {
 };
 
 export const printFinalWinner = function () {
+  decideWinner();
   const finalWinner = decideWinner().join(', ');
   const resultSpan = document.querySelector('#result-span');
   const racingWinners = document.querySelector('#racing-winners');
