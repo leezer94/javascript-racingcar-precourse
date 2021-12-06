@@ -51,9 +51,7 @@
 
 ## Test Result
 
-<p align="middle" >
-  <img width="400px;" src="/Users/leezer/Desktop/wotechco-precourse/javascript-racingcar-precourse/images/Screen Shot 2021-12-06 at 6.28.32 PM.png"/>
-</p>
+![실행이미지](images/.jpg)
 
 ## 🔍 진행방식
 
@@ -79,7 +77,7 @@
 
 ### 💻 실행 결과
 
-![실행이미지](images/result.jpg)
+![실행이미지](images/keonheelee-test-result.png)
 
 <br>
 
