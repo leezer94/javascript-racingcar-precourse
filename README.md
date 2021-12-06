@@ -47,6 +47,14 @@
 
 11. `position` Array 요소 토대로 우승자 출력하는 기능 구현
 
+---
+
+## Test Result
+
+<p align="middle" >
+  <img width="400px;" src="/Users/leezer/Desktop/wotechco-precourse/javascript-racingcar-precourse/images/Screen Shot 2021-12-06 at 6.28.32 PM.png"/>
+</p>
+
 ## 🔍 진행방식
 
 - 미션은 **기능 요구사항, 프로그래밍 요구사항, 과제 진행 요구사항** 세 가지로 구성되어 있다.
